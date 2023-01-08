@@ -1,0 +1,23 @@
+{
+  "name": "js-test",
+  "version": "1.0.0",
+  "description": "![](https://www.frontendbastards.nl/wp-content/uploads/2019/03/Logo-frontend-bastards.png)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecunias/js-test.git"
+  },
+  "author": "Jelte Wiersma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pecunias/js-test/issues"
+  },
+  "homepage": "https://github.com/pecunias/js-test#readme"
+}

@@ -21,3 +21,5 @@ const barObjF = {
         'Heineken', 
     ]
 };
+
+module.exports = { barSchema, barObj, barObjF };

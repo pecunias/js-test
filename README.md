@@ -1,5 +1,14 @@
 ![](https://www.frontendbastards.nl/wp-content/uploads/2019/03/Logo-frontend-bastards.png)
 
+# Stappen die doorlopen zijn
+
+- Clonen van de Github repo op mijn account
+- npm init uitvoeren, met index.js als entry point waar het programma gedraaid gaat worden
+- In iedere example, alle mogelijke objecten exposen als module, zodat die simpel te gebruiken zijn in index.js
+- Vanuit index.js starten met string, omdat die het vaakst voorkomt in alle examples
+- Starten met bars.js, in index.js start ik met testen of het volgende ```true``` teruggeeft: ```validate(bars.barSchema.name, bars.barObj.name)```. Wanneer dit lukt, starten met het ophalen van alle keys die bestaan in een object, omdat een object oneindige mogelijkheden kan bevatten
+
+
 # Code Test
 
 Om jouw vaardigheden rondom Javascript te testen hebben we een kleine opdracht ontwikkeld. Voor de opdracht vragen wij je om een een validator te schrijven, die aan de hand van een schema, objecten kan valideren. 
