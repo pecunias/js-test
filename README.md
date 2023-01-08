@@ -1,5 +1,9 @@
 ![](https://www.frontendbastards.nl/wp-content/uploads/2019/03/Logo-frontend-bastards.png)
 
+# Applicatie starten
+- Installeer Node (v16.19.0 gebruik ik)
+- In de terminal, gebruik: ```npm start```
+
 # Stappen die doorlopen zijn
 
 - Clonen van de Github repo op mijn account
