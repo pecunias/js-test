@@ -7,6 +7,10 @@
 - In iedere example, alle mogelijke objecten exposen als module, zodat die simpel te gebruiken zijn in index.js
 - Vanuit index.js starten met string, omdat die het vaakst voorkomt in alle examples
 - Starten met bars.js, in index.js start ik met testen of het volgende ```true``` teruggeeft: ```validate(bars.barSchema.name, bars.barObj.name)```. Wanneer dit lukt, starten met het ophalen van alle keys die bestaan in een object, omdat een object oneindige mogelijkheden kan bevatten
+- Uitvoeren van alle checks, type checking op array is nog niet naar verwachting (typeof vergeten voor te zetten)
+- Functie aangepast dat er maar een uitkomst komt per object die gecheckt wordt, met een optie om details te bekijken
+   - Gebruik gemaakt van ```every``` operator, die een boolean teruggeeft of alle checks goed doorlopen zijn
+- ```drinks: [ // < No object   'Heineken',     ]``` geeft nog de nodige problemen, harde check ingevoegd die kijkt of het geen array is
 
 
 # Code Test
